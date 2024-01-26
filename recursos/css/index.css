@@ -26,9 +26,7 @@ header  #nombre{
     font-weight: 700;
     color: #002d71;
 }
-section{
 
-}
 h1{
     font-size: 24px;
     text-transform: uppercase;
@@ -60,6 +58,9 @@ h1{
 }
 @media only screen and (max-height: 600px) 
 {
+    body{
+        max-height: 600px;
+    }
     #contenedor{
         display: table;
         margin: auto;
