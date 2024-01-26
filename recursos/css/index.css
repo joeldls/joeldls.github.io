@@ -59,7 +59,7 @@ h1{
 @media only screen and (max-height: 600px) 
 {
     body{
-        max-height: 600px;
+        min-height: 600px;
     }
     #contenedor{
         display: table;
